@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+public class TelephoneCost {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int planoOne = 50;
+		//int planoTwo = 100;
+		//int planoThree = 350;
+		int plano = 0;
+		int min =  0;
+		int minExtra = 2;
+		
+		
+		
+		System.out.println("####Controle de custo plano telefonico####");
+		System.out.println(" ");
+		System.out.println("Informe qual é o seu plano:");
+		System.out.println(" 1 = 100min ==>R$50,00 | 2 = 150min ==>R$100,00 | 3 = Ilimitado ==> R$350,00");
+		plano = sc.nextInt();
+		
+		if( plano  == 1 ) {
+			
+			System.out.println("Seu plano é de 100min com custo adicional de R$2,00 porm minuto excedido.");
+			System.out.println(" ");
+			System.out.println("Informe a quantidade de minutos consumidos no mês:");
+			min = sc.nextInt();
+			
+			if(min == 100 || min <= 100) {
+				System.out.println("Você não excedeu os minutos do seu plano. O valor da sua conta é R$ 50,00");
+			}
+			if(min > 100) {
+				int minExced = ( min - 100);
+				int costExtra =  ( minExtra * minExced) + planoOne;
+				System.out.printf("Você excedeu %d minutos do seu plano, sua conta será de R$ %d: ", minExced, costExtra);
+			}
+		}
+		
+		sc.close();
+		
+	}
+
+}

@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+public class bankPassword {
+
+	public static void main(String[] args) {
+
+		int optionAcess;
+		int registeredPassword;
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("#####################################");
+		System.out.println("######Bem vindo ao portal Bank:######");
+		System.out.println("#####################################");
+		System.out.println("");
+		System.out.println(" Ecolha uma opção: 1- Cadastrar uma senha | 2- Sair");
+		optionAcess = sc.nextInt();
+
+		switch (optionAcess) {
+		case 1:
+			System.out.println("Vamos cadastrar uma senha para sua conta:");
+			System.out.println("");
+			System.out.println("Informe uma senha númerica com 6 digitos:");
+
+			registeredPassword = sc.nextInt();
+			int verifyPassword = String.valueOf(registeredPassword).length();
+
+			while (verifyPassword < 6 || verifyPassword > 6) {
+
+				System.out.println("Senha inválida, favor verificar quantidade de digitos informada!");
+				System.out.println("");
+				System.out.println("Informe uma senha númerica com 6 digitos:");
+			}
+			System.out.println("Senha cadastrada com Sucesso!");
+			System.out.println("");
+			System.out.println("Informe sua senha cadastrada:");
+			int verifyPassoword = sc.nextInt();
+
+			while (verifyPassoword != registeredPassword) {
+				System.out.println("ATENÇÃO! Senha incorreta.");
+				System.out.println("");
+				System.out.println("Informe a senha cadastrada corretamente:");
+				verifyPassoword = sc.nextInt();
+			}
+			System.out.println("Senha digitada corretamente.");
+			sc.close();
+			break;
+
+		case 2:
+			System.out.println("Você optou por sair do sistema bancário.");
+			sc.close();
+			break;
+
+		default:
+			System.out.println("Opção inválida!");
+			break;
+
+		}
+
+	}
+
+}

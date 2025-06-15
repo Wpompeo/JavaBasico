@@ -1,0 +1,107 @@
+
+// -*- coding: utf-8 -*-
+import java.util.Scanner;
+
+public class TelephoneCost {
+
+	public static void main(String[] args) {
+
+            try (Scanner sc = new Scanner(System.in, "UTF-8")) {
+                int planoOne = 50;
+                int planoTwo = 100;
+                int planoThree = 350;
+                int plano;
+                int min;
+                double minExtraOne = 2.0;
+                double minExtraTwo = 1.5;
+                
+                System.out.println("####Controle de custo plano telefonico####");
+                System.out.println(" ");
+                System.out.println("Informe qual é o seu plano:");
+                System.out.println(" 1 = 100min ==>R$50,00 | 2 = 150min ==>R$100,00 | 3 = Ilimitado ==> R$350,00");
+                plano = sc.nextInt();
+                
+                switch (plano) {
+                    case 1 -> {
+                        System.out.println("Seu plano é de 100min com custo adicional de R$2,00 por minuto excedido.");
+                        System.out.println(" ");
+                        System.out.println("Informe a quantidade de minutos consumidos no mês:");
+                        min = sc.nextInt();
+                        
+                        if (min == 100 || min <= 100) {
+                            System.out.println("Você não excedeu os minutos do seu plano,o valor da sua conta é R$ 50,00 Reais.");
+                        }
+                        if (min > 100) {
+                            double minExced = (min - 100);
+                            double costExtra = (minExtraOne * minExced) + planoOne;
+                            System.out.printf("Você excedeu %.2f minutos do seu plano, sua conta será de R$ %.2f Reais: ", minExced,
+                                    costExtra);
+                        }
+                    }
+                    case 2 -> {
+                        System.out.println("Seu plano é de 150min com custo adicional de R$1,50 por minuto excedido.");
+                        System.out.println("");
+                        System.out.println("Informe a quantidade de minutos consumidos no mês:");
+                        min = sc.nextInt();
+                        
+                        if (min == 150 || min <= 150) {
+                            System.out.println("Você não excedeu os minutos do seu plano, o valor de sua conta é R$ 100,00 Reais.");
+                        } else {
+                            double minExced = (min - 150);
+                            double costExtra = (minExtraTwo * minExced) + planoTwo;
+                            System.out.printf("Você excedeu %.2f minutos do seu  plano, sua conta será de R$ %.2f Reais: ",
+                                    minExced, costExtra);
+                        }
+                    }
+                    case 3 -> {
+                        System.out.println("Seu plano é ILIMITADO, você pode falar a vontade.");
+                        System.out.printf("Sua conta tem o valor fixo de R$ %d Reais. ", planoThree);
+                    }
+                    default -> {
+                        System.out.println("");
+                    }
+                }
+            }
+	}
+}
+
+//logica com if else
+//if (plano == 1) {
+//
+//	System.out.println("Seu plano é de 100min com custo adicional de R$2,00 por minuto excedido.");
+//	System.out.println(" ");
+//	System.out.println("Informe a quantidade de minutos consumidos no mês:");
+//	min = sc.nextInt();
+//
+//	if (min == 100 || min <= 100) {
+//		System.out.println("Você não excedeu os minutos do seu plano,o valor da sua conta é R$ 50,00 Reais.");
+//	}
+//	if (min > 100) {
+//		double minExced = (min - 100);
+//		double costExtra = (minExtraOne * minExced) + planoOne;
+//		System.out.printf("Você excedeu %.2f minutos do seu plano, sua conta será de R$ %.2f Reais: ", minExced,
+//				costExtra);
+//	}
+//}
+//if (plano == 2) {
+//
+//	System.out.println("Seu plano é de 150min com custo adicional de R$1,50 por minuto excedido.");
+//	System.out.println("");
+//	System.out.println("Informe a quantidade de minutos consumidos no mês:");
+//	min = sc.nextInt();
+//
+//	if (min == 150 || min <= 150) {
+//		System.out.println("Você não excedeu os minutos do seu plano, o valor de sua conta é R$ 100,00 Reais.");
+//	} else {
+//		double minExced = (min - 150);
+//		double costExtra = (minExtraTwo * minExced) + planoTwo;
+//		System.out.printf("Você excedeu %.2f minutos do seu  plano, sua conta será de R$ %.2f Reais: ",
+//				minExced, costExtra);
+//	}
+//}
+//if (plano == 3) {
+//
+//	System.out.println("Seu plano é ILIMITADO, você pode falar a vontade.");
+//	System.out.printf("Sua conta tem o valor fixo de R$ %d Reais. ", planoThree);
+//
+//}

@@ -1,0 +1,22 @@
+public class forBasic {
+
+	public static void main(String[] args) {
+		int x = 3;
+		int y = 0;
+		int c = 15;
+		int d = 6;
+		
+		for(int i = 0; i<x; i++) {
+			System.out.print(i + ",");
+			y = y + 5;
+			System.out.println(y);
+			
+			for(int z = 5; z>d; i--) {
+				System.out.print(z + ",");
+				c = c - 5;
+				System.out.println(c);
+				
+			}
+		}
+	}
+}
