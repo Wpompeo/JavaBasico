@@ -1,0 +1,21 @@
+package entities;
+
+
+
+public class Product {
+	String nameString;
+	Double priceDouble;
+	int quantity;
+	
+	public double TotalValueInStock() {
+		Double valueEstoque = (priceDouble * quantity);
+	}
+	
+	public void AddProductsInStock(int quantity) {
+		quantity += quantity;		
+	}
+	
+	public void RemoveQuantityStock(int quantity) {
+		quantity -= quantity;
+	}
+}

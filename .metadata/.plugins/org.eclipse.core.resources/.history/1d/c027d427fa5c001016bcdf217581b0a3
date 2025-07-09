@@ -1,0 +1,55 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.Product;
+
+public class InventoryControl {
+
+	public static void main (String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);		
+		
+		Product product = new Product();
+		
+		System.out.println("================================");
+		System.out.println("Bem vindo ao controle e estoque.");
+		System.out.println("================================");
+		System.out.println("");
+		System.out.println("Informe com o nome do produto:");
+		product.name = sc.nextLine();
+		System.out.println("Informe com o valor do produto:");
+		product.price = sc.nextDouble();
+		System.out.println("Informe com a quantidade de produto:");
+		product.quantity = sc.nextInt();		
+		System.out.println("Dados do produto: " + product);
+		
+		System.out.println("");
+		System.out.println("Entre com a quantidade de produtos para ser adicionado ao estoque:");
+		
+		int quantity = sc.nextInt();
+		product.addProductsInStock(quantity);
+		System.out.println();
+		System.out.println("Estoque atualizado: " + product);
+		
+		System.out.println("");
+		System.out.println("Entre com a quantidade de produtos a ser removida do estoque:");
+		
+		int outQuantity = sc.nextInt();
+		product.removeQuantityStock(outQuantity);
+		System.out.println();
+		System.out.println("Estoque atualizado após retirada de produtos: " + product);
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+		
+	}
+}

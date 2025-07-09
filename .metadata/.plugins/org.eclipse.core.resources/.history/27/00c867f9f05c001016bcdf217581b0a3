@@ -1,0 +1,24 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class InventoryControl {
+
+	public void main (String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("================================");
+		System.out.println("Bem vindo ao controle e estoque.");
+		System.out.println("================================");
+		System.out.println("");
+		
+		
+		
+		
+		sc.close();
+		
+	}
+}
