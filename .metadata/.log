@@ -411,3 +411,847 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-06-16 16:04:30.274 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-16 16:04:31.422
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-06-16 16:04:33.948
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-16 16:04:34.552
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-06-16 16:04:37.228
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-16 16:04:37.228
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-16 16:04:37.228
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-16 16:04:41.636
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-06-16 16:05:22.501 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-16 16:05:23.554
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-16 16:05:26.590
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-06-16 16:05:29.368
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-16 16:05:29.368
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-16 16:05:29.368
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-16 16:05:33.754
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-07-02 10:09:10.125 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-02 10:09:11.277
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-02 10:09:14.993
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-07-02 10:09:17.651
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-02 10:09:17.651
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-02 10:09:17.651
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-02 10:09:23.165
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-07-05 18:16:29.921 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-05 18:16:31.964
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-05 18:17:13.018
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-07-05 18:17:15.931
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-05 18:17:15.931
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-05 18:17:15.931
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-05 18:17:20.029
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-07-07 08:26:35.607 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-07 08:26:36.732
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-07 08:26:39.977
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-07-07 08:26:42.650
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-07 08:26:42.650
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-07 08:26:42.650
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-07 08:26:46.329
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2025-07-07 16:56:32.779
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:450)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:369)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3437)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setFocus(AbstractAnnotationHover.java:212)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformationControl(AbstractInformationControlManager.java:1246)
+	at org.eclipse.jface.internal.text.StickyHoverManager.showInformationControl(StickyHoverManager.java:262)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:150)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:116)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:103)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1268)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:794)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:297)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$Closer.lambda$1(AbstractHoverInformationControlManager.java:296)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4029)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3645)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:643)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:550)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+!SESSION 2025-07-08 09:47:24.043 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-08 09:47:25.179
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-08 09:47:29.541
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-07-08 09:47:32.603
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-08 09:47:32.603
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-08 09:47:32.603
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-08 09:47:36.552
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-07-08 10:54:25.206
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.util.Scanner;
+
+public class RevelaMaior {
+
+	public static void main (String [] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Double numberOne;
+		String numberTwo;
+		xœíyp×Çßê°dÙÆd0—·9öÊ’›[»’Ë^¡Cs†+áðÄ‘0M1$L:“üÕ¤™d†vÊí´Ìd’Î”ôv2½’´Ó&iš6%WsÔ}ï·:ÖÒJZ°ÿ>;úyß¾ß~÷í{o¥Ý·û[Ÿ^KÈ:q1Óé'‹ÉtŽ ·¬ñ¸"˜•:=Ž8l>Vp´‡Ù’p;³m`Åv‡&­«)D­G`ómÔzCÝf;’>a™®ò‹jÃ­«+x[ü’Ã!Ë!j…à*‘ê´×3åvž­ëÙ|°]dóBÚÖý«"`Ùr¡§,[Kð‡Á¶²’CBT@(è˜gü™~$à§	¡“ÙP„©…fƒ/]+èa¶ce]Ãák
+		                                                                                                                            ÊÚ5uè“WQ°
+		                                                                                                                            ‚'Ìî_(Rg ‡ËU¬�6âðH¬N<Ö	¶¬¬l#[7äaó2øËà/ƒ¿þ2øËà/ÇýY{yZ½A‡ ³ª¥6ïžRÉ¤žøK…W(¼þ°(Â¼ÈÖ÷„X[{ü²×[°Z6B~ÙdÇÔ§êÓŽ$r[Ziè¨õvú"Z
+		                                                                                                                            Þ@ˆVe§?á/
+		                                                                                                                            ‰­‘ºÄßÅjÀ
+		                                                                                                                            ‚­—XùÃTÍã
+		                                                                                                                            '{•§ËÅ@g€å
+		                                                                                                                            °°Bæ©U¶íËÑ#µ¿È”[Š¾_ÞêõËJÉ%G‡Š„DýýGAÿÑ¨1èFÞŒnä
+		                                                                                                                            yê=Íâ¡ÆZ{OI±AoHô²å’âß’èiž Ûjy°N°
+		                                                                                                                            `]`Ý`“òeð—Á_üeð—ÁŸí€ÒR!Q
+		                                                                                                                            ]ÇÃ;¥Dh�@„¡Dh�QÕ�"4€
+		                                                                                                                             BˆÐ�"4€
+		                                                                                                                             fk€le€vQê_¯¿¯@„¡Dh�@„U
+		                                                                                                                             BˆÐ�"4€
+		                                                                                                                             BˆÐ�¢Ò�•?XhùƒJùØ‚ ‚ ‚ r
+		                                                                                                                            D`üAMw Fª’*Ûj£ó9åßæ$m¾zðOeû[ÙpaF6°™H-©²#0²!€¥ú<³³>^Ñ9åc&XM}'è'³#0f"€¥úNÐgÖçTôÁ_NùÃhŒ�VS¿ô“ÙÀRýÐgÖ× èƒ¿œò‡q¬¦¾ô“ÙçÀR}è3ës)úà/§üaI�«©ïýdvF°Tß
+		                                                                                                                            úÌúÜŠ>øËir‚”k¼@ÊÈTãT¿‘é7ªüSÙ‘`z…þL”?=;Lõ@Zþ`"Ñæc³’:;¡Ï³Qqí*A¶¤ÊŽÀÈ•�–éó¬üÌú‚¼¢þrÊŸõ=!¨ÝA%È–TÙÀ2}'è;™¾SÑ9åÏúžÔî dKªìŒ¶	`™~è70ýEüå”?ë{BP»ƒJ-©²#0Ž'€eú.Ðw1}—¢þrÊŸõ=!¨ÝA%È–TÙ!À2}7è»™¾[Ñÿ´*suP)#[P
+		                                                                                                                            €1ýF¦ß¨ò/l€AAAAAA
+		                                                                                                                            ¤æ
+		                                                                                                                            Çí4[Ž§E ¤§[ÂRWWOÿÐuXÊASŽZGX…ÅQRç^ä¬[Ä;I0”{óÄEu˜2i¡‰Ò“ùƒ#lƒ—é§‰É!:w�&™NRFÌôó¨©Éð½^RËq±ë“¯¾9Y'¿wÊuKÄùhrHJ~Ž(¡47u(Í 3”AAAAdèÉ¥ÉãŸ%”&»~®P-}íPšìú¹Bi´ôµCi²ëç
+		                                                                                                                            ¥ÑÒ×¥É®Ÿ+”FK_;”&»~®P-}íPšÜä¥ÑðÏ¥ÉZžŒPšÜd¥É¡Ÿ#”FS_3”&‡~ŽPM}ÍPšú9Bi4õ5Cirèç¥ÑÔ×¥É¡Ÿ#”FS_3”&7¹Ci´üÓCiAAAAADÍPÄ ‚ rÓ3$q‡¿Yt¢)•2#Ý¬6ÎÁ\b"¤”~šÉ‡±‡¦­ƒe©B+Ó;\5¤íÉ%ÚÓhØŠ‘˜ˆ™Õ-&6RB·VFF‘rš¯”K)Uýó*ZÁ7Ž–…ô¯IUÖÔ¶{¥dx4kè(e!35½*/Cr»JI³ŽPÓK§×¡ž@ýYAKÝ
+		                                                                                                                            Êv”ÎaÑØK©N–!UâfâUùØÓ¬]C™T8Ó‡»‚ ‚ ‚	Žzïp:.‡ÛÑ8Ü¥zUÓ4Â“�½€N¤mä(yˆœ ÔñA�¸„çé„ÐºÐwQ³»ÒXBØëÎ
+		                                                                                                                            åòlRDŠ*É“„ŒžCÈkK	ÙÞIÈÄ
+		                                                                                                                            t~?!»%dÙ÷¿[¡‘[‹yƒ¦‘ÇÑ§Øßåow¹ÉdUFFŒËÓ‰
+		                                                                                                                            VÓï+±Ó‰,àpvj\5|_q¦ð£ÃQÏÏŒ“™f\Ì¸™‰?ÈPaª3Ò^È:bo/ü†T³ÞÜk<	¹½“Sž}`®ˆþ¡zab=1˜~–<MÊÊ˜“~dØ‹5‰1~Ïà–ÇdáF“¹Èb±p¦¥ùýÙ.WWçu»>p‰?ÉŠ6›WÁ/­­Í|ñ(.Ãe·ê²›«4¸—]Ë²SÇÈˆF9ŸF
+		                                                                                                                            áZê,×ºÃÚ_Zl¶ü^bVÌ®–Z3é6<l¤—fg“ùg8;\¬Í6{9W^n'Ó³,ƒKšt¬“Ëô"ïmŽ+6ÔÆÏ¼¾!ä/VŽãLÄ:Q„¶ÕðÍ?0ãmMvR¬Ò¡'ÛÕlìŠ¬d©Zdr| 'õ”	—â\v"ÎžUyìÚ*çú@O‹‰ra¬æ6Y?õ¾ÚöÐ¢Èj+5|5zŒ}\ÕÄÉù=o[.©Sµ7	ï•¯„8vñ­0ø!³Dªú6¸*GngÑNZ>—ÍÁ@Fobùú	?OÊSž?6ŒOtv£1¹Tu4¨IÜ2ªa¦š˜!eH¨©ŠÔ.[Ú¬Œv% '_C—n´®ÉÆJg”“…%UFR8ñÎò<üU¬3ÅËÀ¦j(ûÐùSºBâ ŒXÙ>”A&Ç9ƒÝ®:òÍpˆf9Øˆßñýˆï5Iƒ!~_ç©*§œ7%wƒëá^'©kXƒezIïòÖrÂv}RÏázIµ…|^–¨ÄðxmÊá,™Am·¡™â-u6¾±_+Èó—ØÏ09`ââÃ‰	òÿZ“Tœ×AAAAAn}¬ªaËbb0k±­¤´lTùèŠ1cí•ãÆWM˜8iò”ê©ŽiÓgÌœ5{NÍÜyóÔ.\TWÏ;\îÆÅK–65/»ãÎå-­AôúÚ¤íþŽN9°2
+		                                                                                                                            GVuu¯îY³ö®»×­¿gÃÆÞM›·lÝ¶ýÞ;wíÞsßý{÷í?pðÐ‡<xôØñ¾á«ˆñûi#·Ž/îÜ”˜’/¨™é>R�Ç}—{’‚=)3Ò‰ûœ
+		                                                                                                                            ¬‹‘ÇF°™¯w•ãÙr«å}c5yd¬2§)Ûz‚ zøa×·ù‚ÓD7Ãù˜m~‡g±¤®®¾%ìÉ|»z¶·®ƒáëx')».ÛÿÙp> ‚ ÈÍA¾ó<_@‘
+		                                                                                                                            ÇF£Éd6Y,Vkq±ÍVRRZZV6jTyùèÑcÆŒk·WVŽ7~|UÕ„	'Nš4yò”)ÕÕS§:Ó¦MŸ>cÆÌ™³fÍž=gNMÍÜ¹óæÍŸ¿`AmíÂ…‹ÑK¢zžw:\.·»±qñâ%K–.mjjn^¶ìŽ;î¼sùò––ÖVGDÑëõùÚÚ$iÅŠöv¿¿££³S–•+ƒÁP(ŽDV­êêêî^½º§gÍšµkïºëî»×­[¿þž{6lØ¸±·wÓ¦Í›·lÙºuÛ¶íÛï½wÇŽ;wíÚ½{Ïžûî»ÿþ½{÷íÛ¿ÿÀƒzàÃ‡yðÁ£G;~¼¯¯oyz°32´°WoÁK²(¿ÿGžëæCAAF¼½àÒ¨Ü«ki­#õ„'NÒ@\ÄMÉb²„Ô’ñ‘�é ÿøvà›}^Ûz|<Çuxœƒ†Ä
+		                                                                                                                            ¤Týd*;;˜Ëwxû˜ØÓªê3ˆ:êâíìÃžjUû,lÌÔaO¼ª}3a°{"Ví“qó…h¼.}Ð}nzŸÚe7ä[ô¶âÕ§2—ývþÐ—¹ùø%L½Yómæl9ég:]{÷´ˆmûg-îÝ±ÊÙ¸{V¡ÿ±|¶®»êð]‘=Ï.ýO‡Žž‡€¾Õ¡£'èà:zžìüZ‡NÖfVñ•,¯«Äuèè¹¯ñ¥k>Ê:tô¼…és:zÞú™:ŸêÐ)Õ¡sU‡Žžõ?:tô¼œñ:åù(ÿÖ¡3Z‡Î¿tèTèÐùX‡Î:ÿÔ¡3V‡ÎG:tôüïßèÐ©Ô¡ó¡q:t>Ð¡3^‡Îû:tªtèü]‡Ná<³±ÊH¸"úCk¼b¹`¿¢ç5þ«Ì%
+		                                                                                                                            +=ôØÅMéÎŸŽðçfEÉx0ïJ†ô+dh)¼ûFø{ðAAAAn†{è)/|ôÙ‡¯~¸èƒ«ïî·ñÏ•:ýöÌ·¿zëÅ·&\ÿëÊ7¯¾ñ·7þúÚ†×Ö¿úæ¥.õý|éÅÉÿéÃ¦_8}¾û|Ýùšó³_©zÅþJÅJ^þú¥/Î½yîâ¹—Ï>÷ÎSÏÚÏ¾wF8³îôc/Æž‰=‹ÅŒ={0¶:&Ç–ÅÜ1gljÌ3Å^:õÃSÏ=öõ‰/O\=!Ÿ8==ÝÝÝ]íŠ†¢þ¨'êŠÖGgFÑ)Ñ‰Ñ'ûŸè?ÕíßÚ¿©]ÿšþ®~cß™“œUÎ
+		                                                                                                                            ç'|bÏÞã/ñ<…û÷:w™{„T‘JRNJˆntþzp
+		                                                                                                                            xœíyp×Çßê°dÙÆd0—·9öÊ’›[»’Ë^¡Cs†+áðÄ‘0M1$L:“üÕ¤™d†vÊí´Ìd’Î”ôv2½’´Ó&iš6%WsÔ}ï·:ÖÒJZ°ÿ>;úyß¾ß~÷í{o¥Ý·û[Ÿ^KÈ:q1Óé'‹ÉtŽ ·¬ñ¸"˜•:=Ž8l>Vp´‡Ù’p;³m`Åv‡&­«)D­G`ómÔzCÝf;’>a™®ò‹jÃ­«+x[ü’Ã!Ë!j…à*‘ê´×3åvž­ëÙ|°]dóBÚÖý«"`Ùr¡§,[Kð‡Á¶²’CBT@(è˜gü™~$à§	¡“ÙP„©…fƒ/]+èa¶ce]Ãák
+		                                                                                                                            ÊÚ5uè“WQ°
+		                                                                                                                            ‚'Ìî_(Rg ‡ËU¬ 6âðH¬N<Ö	¶¬¬l#[7äaó2øËà/ƒ¿þ2øËà/ÇýY{yZ½A‡ ³ª¥6ïžRÉ¤žøK…W(¼þ°(Â¼ÈÖ÷„X[{ü²×[°Z6B~ÙdÇÔ§êÓŽ$r[Ziè¨õvú"Z
+		                                                                                                                            Þ@ˆVe§?á/
+		                                                                                                                            ‰­‘ºÄßÅjÀ
+		                                                                                                                            ‚­—XùÃTÍã
+		                                                                                                                            '{•§ËÅ@g€å
+		                                                                                                                            °°Bæ©U¶íËÑ#µ¿È”[Š¾_ÞêõËJÉ%G‡Š„DýýGAÿÑ¨1èFÞŒnä
+		                                                                                                                            yê=Íâ¡ÆZ{OI±AoHô²å’âß’èiž Ûjy°N°
+		                                                                                                                            `]`Ý`“òeð—Á_üeð—ÁŸí€ÒR!Q
+		                                                                                                                            ]ÇÃ;¥Dh @„¡Dh QÕ "4€
+		                                                                                                                             BˆÐ "4€
+		                                                                                                                             fk€le€vQê_¯¿¯@„¡Dh @„U
+		                                                                                                                             BˆÐ "4€
+		                                                                                                                             BˆÐ ¢Ò •?XhùƒJùØ‚ ‚ ‚ r
+		                                                                                                                            D`üAMw Fª’*Ûj£ó9åßæ$m¾zðOeû[ÙpaF6°™H-©²#0²!€¥ú<³³>^Ñ9åc&XM}'è'³#0f"€¥úNÐgÖçTôÁ_NùÃhŒ VS¿ô“ÙÀRýÐgÖ× èƒ¿œò‡q¬¦¾ô“ÙçÀR}è3ës)úà/§üaI «©ïýdvF°Tß
+		                                                                                                                            úÌúÜŠ>øËir‚”k¼@ÊÈTãT¿‘é7ªüSÙ‘`z…þL”?=;Lõ@Zþ`"Ñæc³’:;¡Ï³Qqí*A¶¤ÊŽÀÈ• –éó¬üÌú‚¼¢þrÊŸõ=!¨ÝA%È–TÙÀ2}'è;™¾SÑ9åÏúžÔî dKªìŒ¶	`™~è70ýEüå”?ë{BP»ƒJ-©²#0Ž'€eú.Ðw1}—¢þrÊŸõ=!¨ÝA%È–TÙ!À2}7è»™¾[Ñÿ´*suP)#[P
+		                                                                                                                            €1ýF¦ß¨ò/l€AAAAAA
+		                                                                                                                            ¤æ
+		                                                                                                                            Çí4[Ž§E ¤§[ÂRWWOÿÐuXÊASŽZGX…ÅQRç^ä¬[Ä;I0”{óÄEu˜2i¡‰Ò“ùƒ#lƒ—é§‰É!:w &™NRFÌôó¨©Éð½^RËq±ë“¯¾9Y'¿wÊuKÄùhrHJ~Ž(¡47u(Í 3”AAAAdèÉ¥ÉãŸ%”&»~®P-}íPšìú¹Bi´ôµCi²ëç
+		                                                                                                                            ¥ÑÒ×¥É®Ÿ+”FK_;”&»~®P-}íPšÜä¥ÑðÏ¥ÉZžŒPšÜd¥É¡Ÿ#”FS_3”&‡~ŽPM}ÍPšú9Bi4õ5Cirèç¥ÑÔ×¥É¡Ÿ#”FS_3”&7¹Ci´üÓCiAAAAADÍPÄ ‚ rÓ3$q‡¿Yt¢)•2#Ý¬6ÎÁ\b"¤”~šÉ‡±‡¦­ƒe©B+Ó;\5¤íÉ%ÚÓhØŠ‘˜ˆ™Õ-&6RB·VFF‘rš¯”K)Uýó*ZÁ7Ž–…ô¯IUÖÔ¶{¥dx4kè(e!35½*/Cr»JI³ŽPÓK§×¡ž@ýYAKÝ
+		                                                                                                                            Êv”ÎaÑØK©N–!UâfâUùØÓ¬]C™T8Ó‡»‚ ‚ ‚	Žzïp:.‡ÛÑ8Ü¥zUÓ4Â“ ½€N¤mä(yˆœ ÔñA ¸„çé„ÐºÐwQ³»ÒXBØëÎ
+		                                                                                                                            åòlRDŠ*É“„ŒžCÈkK	ÙÞIÈÄ
+		                                                                                                                            t~?!»%dÙ÷¿[¡‘[‹yƒ¦‘ÇÑ§Øßåow¹ÉdUFFŒËÓ‰
+		                                                                                                                            VÓï+±Ó‰,àpvj\5|_q¦ð£ÃQÏÏŒ“™f\Ì¸™‰?ÈPaª3Ò^È:bo/ü†T³ÞÜk<	¹½“Sž}`®ˆþ¡zab=1˜~–<MÊÊ˜“~dØ‹5‰1~Ïà–ÇdáF“¹Èb±p¦¥ùýÙ.WWçu»>p‰?ÉŠ6›WÁ/­­Í|ñ(.Ãe·ê²›«4¸—]Ë²SÇÈˆF9ŸF
+		                                                                                                                            áZê,×ºÃÚ_Zl¶ü^bVÌ®–Z3é6<l¤—fg“ùg8;\¬Í6{9W^n'Ó³,ƒKšt¬“Ëô"ïmŽ+6ÔÆÏ¼¾!ä/VŽãLÄ:Q„¶ÕðÍ?0ãmMvR¬Ò¡'ÛÕlìŠ¬d©Zdr| 'õ”	—â\v"ÎžUyìÚ*çú@O‹‰ra¬æ6Y?õ¾ÚöÐ¢Èj+5|5zŒ}\ÕÄÉù=o[.©Sµ7	ï•¯„8vñ­0ø!³Dªú6¸*GngÑNZ>—ÍÁ@Fobùú	?OÊSž?6ŒOtv£1¹Tu4¨IÜ2ªa¦š˜!eH¨©ŠÔ.[Ú¬Œv% '_C—n´®ÉÆJg”“…%UFR8ñÎò<üU¬3ÅËÀ¦j(ûÐùSºBâ ŒXÙ>”A&Ç9ƒÝ®:òÍpˆf9Øˆßñýˆï5Iƒ!~_ç©*§œ7%wƒëá^'©kXƒezIïòÖrÂv}RÏázIµ…|^–¨ÄðxmÊá,™Am·¡™â-u6¾±_+Èó—ØÏ09`ââÃ‰	òÿZ“Tœ×AAAAAn}¬ªaËbb0k±­¤´lTùèŠ1cí•ãÆWM˜8iò”ê©ŽiÓgÌœ5{NÍÜyóÔ.\TWÏ;\îÆÅK–65/»ãÎå-­AôúÚ¤íþŽN9°2
+		                                                                                                                            GVuu¯îY³ö®»×­¿gÃÆÞM›·lÝ¶ýÞ;wíÞsßý{÷í?pðÐ‡<xôØñ¾á«ˆñûi#·Ž/îÜ”˜’/¨™é>R Ç}—{’‚=)3Ò‰ûœ
+		                                                                                                                            ¬‹‘ÇF°™¯w•ãÙr«å}c5yd¬2§)Ûz‚ zøa×·ù‚ÓD7Ãù˜m~‡g±¤®®¾%ìÉ|»z¶·®ƒáëx')».ÛÿÙp> ‚ ÈÍA¾ó<_@‘
+		                                                                                                                            ÇF£Éd6Y,Vkq±ÍVRRZZV6jTyùèÑcÆŒk·WVŽ7~|UÕ„	'Nš4yò”)ÕÕS§:Ó¦MŸ>cÆÌ™³fÍž=gNMÍÜ¹óæÍŸ¿`AmíÂ…‹ÑK¢zžw:\.·»±qñâ%K–.mjjn^¶ìŽ;î¼sùò––ÖVGDÑëõùÚÚ$iÅŠöv¿¿££³S–•+ƒÁP(ŽDV­êêêî^½º§gÍšµkïºëî»×­[¿þž{6lØ¸±·wÓ¦Í›·lÙºuÛ¶íÛï½wÇŽ;wíÚ½{Ïžûî»ÿþ½{÷íÛ¿ÿÀƒzàÃ‡yðÁ£G;~¼¯¯oyz°32´°WoÁK²(¿ÿGžëæCAAF¼½àÒ¨Ü«ki­#õ„'NÒ@\ÄMÉb²„Ô’ñ‘ é ÿøvà›}^Ûz|<Çuxœƒ†Ä
+		                                                                                                                            ¤Týd*;;˜Ëwxû˜ØÓªê3ˆ:êâíìÃžjUû,lÌÔaO¼ª}3a°{"Ví“qó…h¼.}Ð}nzŸÚe7ä[ô¶âÕ§2—ývþÐ—¹ùø%L½Yómæl9ég:]{÷´ˆmûg-îÝ±ÊÙ¸{V¡ÿ±|¶®»êð]‘=Ï.ýO‡Žž‡€¾Õ¡£'èà:zžìüZ‡NÖfVñ•,¯«Äuèè¹¯ñ¥k>Ê:tô¼…és:zÞú™:ŸêÐ)Õ¡sU‡Žžõ?:tô¼œñ:åù(ÿÖ¡3Z‡Î¿tèTèÐùX‡Î:ÿÔ¡3V‡ÎG:tôüïßèÐ©Ô¡ó¡q:t>Ð¡3^‡Îû:tªtèü]‡Ná<³±ÊH¸"úCk¼b¹`¿¢ç5þ«Ì%
+		                                                                                                                            +=ôØÅMéÎŸŽðçfEÉx0ïJ†ô+dh)¼ûFø{ðAAAAn†{è)/|ôÙ‡¯~¸èƒ«ïî·ñÏ•:ýöÌ·¿zëÅ·&\ÿëÊ7¯¾ñ·7þúÚ†×Ö¿úæ¥.õý|éÅÉÿéÃ¦_8}¾û|Ýùšó³_©zÅþJÅJ^þú¥/Î½yîâ¹—Ï>÷ÎSÏÚÏ¾wF8³îôc/Æž‰=‹ÅŒ={0¶:&Ç–ÅÜ1gljÌ3Å^:õÃSÏ=öõ‰/O\=!Ÿ8==ÝÝÝ]íŠ†¢þ¨'êŠÖGgFÑ)Ñ‰Ñ'ûŸè?ÕíßÚ¿©]ÿšþ®~cß™“œUÎ
+		                                                                                                                            ç'|bÏÞã/ñ<…û÷:w™{„T‘JRNJˆntþzp numberThree;
+		
+		
+			System.out.println("=============================================");
+			System.out.println("=====Descobrino o MAIOR número digitado!=====");
+			System.out.println("Informe o primiero número:");
+			System.out.println("Informe o segundo número:");
+			System.out.println("Informe o terceiro número:");
+			
+			numberOne = sc.nextLine();
+			numberTwo = sc.nextLine();
+			numberThree = sc.nextLine();
+	}
+		
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:561)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2025-07-08 10:54:25.209
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:561)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2025-07-08 10:54:25.210
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:561)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1148)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1325)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:94)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:91)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:158)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:78)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:207)
+
+!ENTRY org.eclipse.jdt.core 4 4 2025-07-08 10:54:25.450
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+import java.util.Scanner;
+
+public class RevelaMaior {
+
+	public static void main (String [] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Double numberOne;
+		String numberTwo;
+		xœíyp×Çßê°dÙÆd0—·9öÊ’›[»’Ë^¡Cs†+áðÄ‘0M1$L:“üÕ¤™d†vÊí´Ìd’Î”ôv2½’´Ó&iš6%WsÔ}ï·:ÖÒJZ°ÿ>;úyß¾ß~÷í{o¥Ý·û[Ÿ^KÈ:q1Óé'‹ÉtŽ ·¬ñ¸"˜•:=Ž8l>Vp´‡Ù’p;³m`Åv‡&­«)D­G`ómÔzCÝf;’>a™®ò‹jÃ­«+x[ü’Ã!Ë!j…à*‘ê´×3åvž­ëÙ|°]dóBÚÖý«"`Ùr¡§,[Kð‡Á¶²’CBT@(è˜gü™~$à§	¡“ÙP„©…fƒ/]+èa¶ce]Ãák
+		                                                                                                                            ÊÚ5uè“WQ°
+		                                                                                                                            ‚'Ìî_(Rg ‡ËU¬�6âðH¬N<Ö	¶¬¬l#[7äaó2øËà/ƒ¿þ2øËà/ÇýY{yZ½A‡ ³ª¥6ïžRÉ¤žøK…W(¼þ°(Â¼ÈÖ÷„X[{ü²×[°Z6B~ÙdÇÔ§êÓŽ$r[Ziè¨õvú"Z
+		                                                                                                                            Þ@ˆVe§?á/
+		                                                                                                                            ‰­‘ºÄßÅjÀ
+		                                                                                                                            ‚­—XùÃTÍã
+		                                                                                                                            '{•§ËÅ@g€å
+		                                                                                                                            °°Bæ©U¶íËÑ#µ¿È”[Š¾_ÞêõËJÉ%G‡Š„DýýGAÿÑ¨1èFÞŒnä
+		                                                                                                                            yê=Íâ¡ÆZ{OI±AoHô²å’âß’èiž Ûjy°N°
+		                                                                                                                            `]`Ý`“òeð—Á_üeð—ÁŸí€ÒR!Q
+		                                                                                                                            ]ÇÃ;¥Dh�@„¡Dh�QÕ�"4€
+		                                                                                                                             BˆÐ�"4€
+		                                                                                                                             fk€le€vQê_¯¿¯@„¡Dh�@„U
+		                                                                                                                             BˆÐ�"4€
+		                                                                                                                             BˆÐ�¢Ò�•?XhùƒJùØ‚ ‚ ‚ r
+		                                                                                                                            D`üAMw Fª’*Ûj£ó9åßæ$m¾zðOeû[ÙpaF6°™H-©²#0²!€¥ú<³³>^Ñ9åc&XM}'è'³#0f"€¥úNÐgÖçTôÁ_NùÃhŒ�VS¿ô“ÙÀRýÐgÖ× èƒ¿œò‡q¬¦¾ô“ÙçÀR}è3ës)úà/§üaI�«©ïýdvF°Tß
+		                                                                                                                            úÌúÜŠ>øËir‚”k¼@ÊÈTãT¿‘é7ªüSÙ‘`z…þL”?=;Lõ@Zþ`"Ñæc³’:;¡Ï³Qqí*A¶¤ÊŽÀÈ•�–éó¬üÌú‚¼¢þrÊŸõ=!¨ÝA%È–TÙÀ2}'è;™¾SÑ9åÏúžÔî dKªìŒ¶	`™~è70ýEüå”?ë{BP»ƒJ-©²#0Ž'€eú.Ðw1}—¢þrÊŸõ=!¨ÝA%È–TÙ!À2}7è»™¾[Ñÿ´*suP)#[P
+		                                                                                                                            €1ýF¦ß¨ò/l€AAAAAA
+		                                                                                                                            ¤æ
+		                                                                                                                            Çí4[Ž§E ¤§[ÂRWWOÿÐuXÊASŽZGX…ÅQRç^ä¬[Ä;I0”{óÄEu˜2i¡‰Ò“ùƒ#lƒ—é§‰É!:w�&™NRFÌôó¨©Éð½^RËq±ë“¯¾9Y'¿wÊuKÄùhrHJ~Ž(¡47u(Í 3”AAAAdèÉ¥ÉãŸ%”&»~®P-}íPšìú¹Bi´ôµCi²ëç
+		                                                                                                                            ¥ÑÒ×¥É®Ÿ+”FK_;”&»~®P-}íPšÜä¥ÑðÏ¥ÉZžŒPšÜd¥É¡Ÿ#”FS_3”&‡~ŽPM}ÍPšú9Bi4õ5Cirèç¥ÑÔ×¥É¡Ÿ#”FS_3”&7¹Ci´üÓCiAAAAADÍPÄ ‚ rÓ3$q‡¿Yt¢)•2#Ý¬6ÎÁ\b"¤”~šÉ‡±‡¦­ƒe©B+Ó;\5¤íÉ%ÚÓhØŠ‘˜ˆ™Õ-&6RB·VFF‘rš¯”K)Uýó*ZÁ7Ž–…ô¯IUÖÔ¶{¥dx4kè(e!35½*/Cr»JI³ŽPÓK§×¡ž@ýYAKÝ
+		                                                                                                                            Êv”ÎaÑØK©N–!UâfâUùØÓ¬]C™T8Ó‡»‚ ‚ ‚	Žzïp:.‡ÛÑ8Ü¥zUÓ4Â“�½€N¤mä(yˆœ ÔñA�¸„çé„ÐºÐwQ³»ÒXBØëÎ
+		                                                                                                                            åòlRDŠ*É“„ŒžCÈkK	ÙÞIÈÄ
+		                                                                                                                            t~?!»%dÙ÷¿[¡‘[‹yƒ¦‘ÇÑ§Øßåow¹ÉdUFFŒËÓ‰
+		                                                                                                                            VÓï+±Ó‰,àpvj\5|_q¦ð£ÃQÏÏŒ“™f\Ì¸™‰?ÈPaª3Ò^È:bo/ü†T³ÞÜk<	¹½“Sž}`®ˆþ¡zab=1˜~–<MÊÊ˜“~dØ‹5‰1~Ïà–ÇdáF“¹Èb±p¦¥ùýÙ.WWçu»>p‰?ÉŠ6›WÁ/­­Í|ñ(.Ãe·ê²›«4¸—]Ë²SÇÈˆF9ŸF
+		                                                                                                                            áZê,×ºÃÚ_Zl¶ü^bVÌ®–Z3é6<l¤—fg“ùg8;\¬Í6{9W^n'Ó³,ƒKšt¬“Ëô"ïmŽ+6ÔÆÏ¼¾!ä/VŽãLÄ:Q„¶ÕðÍ?0ãmMvR¬Ò¡'ÛÕlìŠ¬d©Zdr| 'õ”	—â\v"ÎžUyìÚ*çú@O‹‰ra¬æ6Y?õ¾ÚöÐ¢Èj+5|5zŒ}\ÕÄÉù=o[.©Sµ7	ï•¯„8vñ­0ø!³Dªú6¸*GngÑNZ>—ÍÁ@Fobùú	?OÊSž?6ŒOtv£1¹Tu4¨IÜ2ªa¦š˜!eH¨©ŠÔ.[Ú¬Œv% '_C—n´®ÉÆJg”“…%UFR8ñÎò<üU¬3ÅËÀ¦j(ûÐùSºBâ ŒXÙ>”A&Ç9ƒÝ®:òÍpˆf9Øˆßñýˆï5Iƒ!~_ç©*§œ7%wƒëá^'©kXƒezIïòÖrÂv}RÏázIµ…|^–¨ÄðxmÊá,™Am·¡™â-u6¾±_+Èó—ØÏ09`ââÃ‰	òÿZ“Tœ×AAAAAn}¬ªaËbb0k±­¤´lTùèŠ1cí•ãÆWM˜8iò”ê©ŽiÓgÌœ5{NÍÜyóÔ.\TWÏ;\îÆÅK–65/»ãÎå-­AôúÚ¤íþŽN9°2
+		                                                                                                                            GVuu¯îY³ö®»×­¿gÃÆÞM›·lÝ¶ýÞ;wíÞsßý{÷í?pðÐ‡<xôØñ¾á«ˆñûi#·Ž/îÜ”˜’/¨™é>R�Ç}—{’‚=)3Ò‰ûœ
+		                                                                                                                            ¬‹‘ÇF°™¯w•ãÙr«å}c5yd¬2§)Ûz‚ zøa×·ù‚ÓD7Ãù˜m~‡g±¤®®¾%ìÉ|»z¶·®ƒáëx')».ÛÿÙp> ‚ ÈÍA¾ó<_@‘
+		                                                                                                                            ÇF£Éd6Y,Vkq±ÍVRRZZV6jTyùèÑcÆŒk·WVŽ7~|UÕ„	'Nš4yò”)ÕÕS§:Ó¦MŸ>cÆÌ™³fÍž=gNMÍÜ¹óæÍŸ¿`AmíÂ…‹ÑK¢zžw:\.·»±qñâ%K–.mjjn^¶ìŽ;î¼sùò––ÖVGDÑëõùÚÚ$iÅŠöv¿¿££³S–•+ƒÁP(ŽDV­êêêî^½º§gÍšµkïºëî»×­[¿þž{6lØ¸±·wÓ¦Í›·lÙºuÛ¶íÛï½wÇŽ;wíÚ½{Ïžûî»ÿþ½{÷íÛ¿ÿÀƒzàÃ‡yðÁ£G;~¼¯¯oyz°32´°WoÁK²(¿ÿGžëæCAAF¼½àÒ¨Ü«ki­#õ„'NÒ@\ÄMÉb²„Ô’ñ‘�é ÿøvà›}^Ûz|<Çuxœƒ†Ä
+		                                                                                                                            ¤Týd*;;˜Ëwxû˜ØÓªê3ˆ:êâíìÃžjUû,lÌÔaO¼ª}3a°{"Ví“qó…h¼.}Ð}nzŸÚe7ä[ô¶âÕ§2—ývþÐ—¹ùø%L½Yómæl9ég:]{÷´ˆmûg-îÝ±ÊÙ¸{V¡ÿ±|¶®»êð]‘=Ï.ýO‡Žž‡€¾Õ¡£'èà:zžìüZ‡NÖfVñ•,¯«Äuèè¹¯ñ¥k>Ê:tô¼…és:zÞú™:ŸêÐ)Õ¡sU‡Žžõ?:tô¼œñ:åù(ÿÖ¡3Z‡Î¿tèTèÐùX‡Î:ÿÔ¡3V‡ÎG:tôüïßèÐ©Ô¡ó¡q:t>Ð¡3^‡Îû:tªtèü]‡Ná<³±ÊH¸"úCk¼b¹`¿¢ç5þ«Ì%
+		                                                                                                                            +=ôØÅMéÎŸŽðçfEÉx0ïJ†ô+dh)¼ûFø{ðAAAAn†{è)/|ôÙ‡¯~¸èƒ«ïî·ñÏ•:ýöÌ·¿zëÅ·&\ÿëÊ7¯¾ñ·7þúÚ†×Ö¿úæ¥.õý|éÅÉÿéÃ¦_8}¾û|Ýùšó³_©zÅþJÅJ^þú¥/Î½yîâ¹—Ï>÷ÎSÏÚÏ¾wF8³îôc/Æž‰=‹ÅŒ={0¶:&Ç–ÅÜ1gljÌ3Å^:õÃSÏ=öõ‰/O\=!Ÿ8==ÝÝÝ]íŠ†¢þ¨'êŠÖGgFÑ)Ñ‰Ñ'ûŸè?ÕíßÚ¿©]ÿšþ®~cß™“œUÎ
+		                                                                                                                            ç'|bÏÞã/ñ<…û÷:w™{„T‘JRNJˆntþzp
+		                                                                                                                            xœíyp×Çßê°dÙÆd0—·9öÊ’›[»’Ë^¡Cs†+áðÄ‘0M1$L:“üÕ¤™d†vÊí´Ìd’Î”ôv2½’´Ó&iš6%WsÔ}ï·:ÖÒJZ°ÿ>;úyß¾ß~÷í{o¥Ý·û[Ÿ^KÈ:q1Óé'‹ÉtŽ ·¬ñ¸"˜•:=Ž8l>Vp´‡Ù’p;³m`Åv‡&­«)D­G`ómÔzCÝf;’>a™®ò‹jÃ­«+x[ü’Ã!Ë!j…à*‘ê´×3åvž­ëÙ|°]dóBÚÖý«"`Ùr¡§,[Kð‡Á¶²’CBT@(è˜gü™~$à§	¡“ÙP„©…fƒ/]+èa¶ce]Ãák
+		                                                                                                                            ÊÚ5uè“WQ°
+		                                                                                                                            ‚'Ìî_(Rg ‡ËU¬ 6âðH¬N<Ö	¶¬¬l#[7äaó2øËà/ƒ¿þ2øËà/ÇýY{yZ½A‡ ³ª¥6ïžRÉ¤žøK…W(¼þ°(Â¼ÈÖ÷„X[{ü²×[°Z6B~ÙdÇÔ§êÓŽ$r[Ziè¨õvú"Z
+		                                                                                                                            Þ@ˆVe§?á/
+		                                                                                                                            ‰­‘ºÄßÅjÀ
+		                                                                                                                            ‚­—XùÃTÍã
+		                                                                                                                            '{•§ËÅ@g€å
+		                                                                                                                            °°Bæ©U¶íËÑ#µ¿È”[Š¾_ÞêõËJÉ%G‡Š„DýýGAÿÑ¨1èFÞŒnä
+		                                                                                                                            yê=Íâ¡ÆZ{OI±AoHô²å’âß’èiž Ûjy°N°
+		                                                                                                                            `]`Ý`“òeð—Á_üeð—ÁŸí€ÒR!Q
+		                                                                                                                            ]ÇÃ;¥Dh @„¡Dh QÕ "4€
+		                                                                                                                             BˆÐ "4€
+		                                                                                                                             fk€le€vQê_¯¿¯@„¡Dh @„U
+		                                                                                                                             BˆÐ "4€
+		                                                                                                                             BˆÐ ¢Ò •?XhùƒJùØ‚ ‚ ‚ r
+		                                                                                                                            D`üAMw Fª’*Ûj£ó9åßæ$m¾zðOeû[ÙpaF6°™H-©²#0²!€¥ú<³³>^Ñ9åc&XM}'è'³#0f"€¥úNÐgÖçTôÁ_NùÃhŒ VS¿ô“ÙÀRýÐgÖ× èƒ¿œò‡q¬¦¾ô“ÙçÀR}è3ës)úà/§üaI «©ïýdvF°Tß
+		                                                                                                                            úÌúÜŠ>øËir‚”k¼@ÊÈTãT¿‘é7ªüSÙ‘`z…þL”?=;Lõ@Zþ`"Ñæc³’:;¡Ï³Qqí*A¶¤ÊŽÀÈ• –éó¬üÌú‚¼¢þrÊŸõ=!¨ÝA%È–TÙÀ2}'è;™¾SÑ9åÏúžÔî dKªìŒ¶	`™~è70ýEüå”?ë{BP»ƒJ-©²#0Ž'€eú.Ðw1}—¢þrÊŸõ=!¨ÝA%È–TÙ!À2}7è»™¾[Ñÿ´*suP)#[P
+		                                                                                                                            €1ýF¦ß¨ò/l€AAAAAA
+		                                                                                                                            ¤æ
+		                                                                                                                            Çí4[Ž§E ¤§[ÂRWWOÿÐuXÊASŽZGX…ÅQRç^ä¬[Ä;I0”{óÄEu˜2i¡‰Ò“ùƒ#lƒ—é§‰É!:w &™NRFÌôó¨©Éð½^RËq±ë“¯¾9Y'¿wÊuKÄùhrHJ~Ž(¡47u(Í 3”AAAAdèÉ¥ÉãŸ%”&»~®P-}íPšìú¹Bi´ôµCi²ëç
+		                                                                                                                            ¥ÑÒ×¥É®Ÿ+”FK_;”&»~®P-}íPšÜä¥ÑðÏ¥ÉZžŒPšÜd¥É¡Ÿ#”FS_3”&‡~ŽPM}ÍPšú9Bi4õ5Cirèç¥ÑÔ×¥É¡Ÿ#”FS_3”&7¹Ci´üÓCiAAAAADÍPÄ ‚ rÓ3$q‡¿Yt¢)•2#Ý¬6ÎÁ\b"¤”~šÉ‡±‡¦­ƒe©B+Ó;\5¤íÉ%ÚÓhØŠ‘˜ˆ™Õ-&6RB·VFF‘rš¯”K)Uýó*ZÁ7Ž–…ô¯IUÖÔ¶{¥dx4kè(e!35½*/Cr»JI³ŽPÓK§×¡ž@ýYAKÝ
+		                                                                                                                            Êv”ÎaÑØK©N–!UâfâUùØÓ¬]C™T8Ó‡»‚ ‚ ‚	Žzïp:.‡ÛÑ8Ü¥zUÓ4Â“ ½€N¤mä(yˆœ ÔñA ¸„çé„ÐºÐwQ³»ÒXBØëÎ
+		                                                                                                                            åòlRDŠ*É“„ŒžCÈkK	ÙÞIÈÄ
+		                                                                                                                            t~?!»%dÙ÷¿[¡‘[‹yƒ¦‘ÇÑ§Øßåow¹ÉdUFFŒËÓ‰
+		                                                                                                                            VÓï+±Ó‰,àpvj\5|_q¦ð£ÃQÏÏŒ“™f\Ì¸™‰?ÈPaª3Ò^È:bo/ü†T³ÞÜk<	¹½“Sž}`®ˆþ¡zab=1˜~–<MÊÊ˜“~dØ‹5‰1~Ïà–ÇdáF“¹Èb±p¦¥ùýÙ.WWçu»>p‰?ÉŠ6›WÁ/­­Í|ñ(.Ãe·ê²›«4¸—]Ë²SÇÈˆF9ŸF
+		                                                                                                                            áZê,×ºÃÚ_Zl¶ü^bVÌ®–Z3é6<l¤—fg“ùg8;\¬Í6{9W^n'Ó³,ƒKšt¬“Ëô"ïmŽ+6ÔÆÏ¼¾!ä/VŽãLÄ:Q„¶ÕðÍ?0ãmMvR¬Ò¡'ÛÕlìŠ¬d©Zdr| 'õ”	—â\v"ÎžUyìÚ*çú@O‹‰ra¬æ6Y?õ¾ÚöÐ¢Èj+5|5zŒ}\ÕÄÉù=o[.©Sµ7	ï•¯„8vñ­0ø!³Dªú6¸*GngÑNZ>—ÍÁ@Fobùú	?OÊSž?6ŒOtv£1¹Tu4¨IÜ2ªa¦š˜!eH¨©ŠÔ.[Ú¬Œv% '_C—n´®ÉÆJg”“…%UFR8ñÎò<üU¬3ÅËÀ¦j(ûÐùSºBâ ŒXÙ>”A&Ç9ƒÝ®:òÍpˆf9Øˆßñýˆï5Iƒ!~_ç©*§œ7%wƒëá^'©kXƒezIïòÖrÂv}RÏázIµ…|^–¨ÄðxmÊá,™Am·¡™â-u6¾±_+Èó—ØÏ09`ââÃ‰	òÿZ“Tœ×AAAAAn}¬ªaËbb0k±­¤´lTùèŠ1cí•ãÆWM˜8iò”ê©ŽiÓgÌœ5{NÍÜyóÔ.\TWÏ;\îÆÅK–65/»ãÎå-­AôúÚ¤íþŽN9°2
+		                                                                                                                            GVuu¯îY³ö®»×­¿gÃÆÞM›·lÝ¶ýÞ;wíÞsßý{÷í?pðÐ‡<xôØñ¾á«ˆñûi#·Ž/îÜ”˜’/¨™é>R Ç}—{’‚=)3Ò‰ûœ
+		                                                                                                                            ¬‹‘ÇF°™¯w•ãÙr«å}c5yd¬2§)Ûz‚ zøa×·ù‚ÓD7Ãù˜m~‡g±¤®®¾%ìÉ|»z¶·®ƒáëx')».ÛÿÙp> ‚ ÈÍA¾ó<_@‘
+		                                                                                                                            ÇF£Éd6Y,Vkq±ÍVRRZZV6jTyùèÑcÆŒk·WVŽ7~|UÕ„	'Nš4yò”)ÕÕS§:Ó¦MŸ>cÆÌ™³fÍž=gNMÍÜ¹óæÍŸ¿`AmíÂ…‹ÑK¢zžw:\.·»±qñâ%K–.mjjn^¶ìŽ;î¼sùò––ÖVGDÑëõùÚÚ$iÅŠöv¿¿££³S–•+ƒÁP(ŽDV­êêêî^½º§gÍšµkïºëî»×­[¿þž{6lØ¸±·wÓ¦Í›·lÙºuÛ¶íÛï½wÇŽ;wíÚ½{Ïžûî»ÿþ½{÷íÛ¿ÿÀƒzàÃ‡yðÁ£G;~¼¯¯oyz°32´°WoÁK²(¿ÿGžëæCAAF¼½àÒ¨Ü«ki­#õ„'NÒ@\ÄMÉb²„Ô’ñ‘ é ÿøvà›}^Ûz|<Çuxœƒ†Ä
+		                                                                                                                            ¤Týd*;;˜Ëwxû˜ØÓªê3ˆ:êâíìÃžjUû,lÌÔaO¼ª}3a°{"Ví“qó…h¼.}Ð}nzŸÚe7ä[ô¶âÕ§2—ývþÐ—¹ùø%L½Yómæl9ég:]{÷´ˆmûg-îÝ±ÊÙ¸{V¡ÿ±|¶®»êð]‘=Ï.ýO‡Žž‡€¾Õ¡£'èà:zžìüZ‡NÖfVñ•,¯«Äuèè¹¯ñ¥k>Ê:tô¼…és:zÞú™:ŸêÐ)Õ¡sU‡Žžõ?:tô¼œñ:åù(ÿÖ¡3Z‡Î¿tèTèÐùX‡Î:ÿÔ¡3V‡ÎG:tôüïßèÐ©Ô¡ó¡q:t>Ð¡3^‡Îû:tªtèü]‡Ná<³±ÊH¸"úCk¼b¹`¿¢ç5þ«Ì%
+		                                                                                                                            +=ôØÅMéÎŸŽðçfEÉx0ïJ†ô+dh)¼ûFø{ðAAAAn†{è)/|ôÙ‡¯~¸èƒ«ïî·ñÏ•:ýöÌ·¿zëÅ·&\ÿëÊ7¯¾ñ·7þúÚ†×Ö¿úæ¥.õý|éÅÉÿéÃ¦_8}¾û|Ýùšó³_©zÅþJÅJ^þú¥/Î½yîâ¹—Ï>÷ÎSÏÚÏ¾wF8³îôc/Æž‰=‹ÅŒ={0¶:&Ç–ÅÜ1gljÌ3Å^:õÃSÏ=öõ‰/O\=!Ÿ8==ÝÝÝ]íŠ†¢þ¨'êŠÖGgFÑ)Ñ‰Ñ'ûŸè?ÕíßÚ¿©]ÿšþ®~cß™“œUÎ
+		                                                                                                                            ç'|bÏÞã/ñ<…û÷:w™{„T‘JRNJˆntþzp numberThree;
+		
+		
+			System.out.println("=============================================");
+			System.out.println("=====Descobrino o MAIOR número digitado!=====");
+			System.out.println("Informe o primiero número:");
+			System.out.println("Informe o segundo número:");
+			System.out.println("Informe o terceiro número:");
+			
+			numberOne = sc.nextLine();
+			numberTwo = sc.nextLine();
+			numberThree = sc.nextLine();
+	}
+		
+
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 2 2025-07-08 10:54:25.451
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2025-07-08 10:54:25.452
+!MESSAGE Error in JDT Core during AST creation
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)
+	at org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3882)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3124)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3419)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)
+	at org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:344)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1272)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:294)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:286)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:199)
+	at org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:189)
+	at org.eclipse.jdt.core.manipulation.SharedASTProviderCore.getAST(SharedASTProviderCore.java:138)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup.calculateASTandInform(SelectionListenerWithASTManager.java:166)
+	at org.eclipse.jdt.internal.ui.viewsupport.SelectionListenerWithASTManager$PartListenerGroup$1.run(SelectionListenerWithASTManager.java:151)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-07-09 09:39:50.453 -----------------------------------------------
+eclipse.buildId=4.27.0.20230309-1200
+java.version=17.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 09:39:51.747
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-07-09 09:40:11.146
+!MESSAGE Logback config file: C:\Wagner\Projetos\Java_Eclipse\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.1.100.20230106-1511.xml
+
+!ENTRY org.eclipse.jface 2 0 2025-07-09 09:40:14.341
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-09 09:40:14.341
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-07-09 09:40:14.341
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.edit.text.java.rename.element"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.ui.edit.rename"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-07-09 09:40:19.184
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\wag_p'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

@@ -1,0 +1,53 @@
+import java.util.Scanner;
+
+public class RevelaMaior {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int numberOne;
+		int numberTwo;
+		int numberThree;
+		boolean validInput = false;
+		
+		while (!validInput) {
+			System.out.println("==================================");
+			System.out.println("Verifica o maior número digitado!");
+			System.out.println("==================================");
+			System.out.println("");
+			System.out.println("== Digite três números inteiros ==");
+			System.out.println("");
+			System.out.println("Digite o primeiro número:");
+			System.out.println("Digite o segundo número:");
+			System.out.println("Digite o terceiro número:");
+			
+			if (sc.hasNextInt()) {
+		
+			numberOne = sc.nextInt();
+			numberTwo = sc.nextInt();
+			numberThree = sc.nextInt();
+			
+			if (numberOne > numberTwo && numberOne > numberThree) {
+				
+				System.out.printf("O maior número digitado é o número 1: %d", numberOne);
+				
+			}else if ( numberOne < numberTwo && numberTwo > numberThree) {
+				
+				System.out.printf("O maior número digitado é o número 2: %d", numberTwo);
+			} else {
+				
+				System.out.printf("O maior número digitado é o número 3: %d", numberThree);
+			}
+			validInput = true;
+			
+		}else {
+			System.out.println("=======ATENÇÃO========");
+			System.out.println("Digite números válidos!");
+			System.out.println("======================");
+			sc.next();
+		}
+
+		}
+	}
+}
+

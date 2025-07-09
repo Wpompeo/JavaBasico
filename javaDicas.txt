@@ -72,4 +72,19 @@
 
 #####################################################################################
 	
+ *Exceptions
+ 
+	Trhowable()
+	Exception()
+	OutOfMemoryError()
 	
+#####################################################################################
+
+ *FUNÇÕES
+ 
+	Formatar string: toLowerCase(), toUpperCase(), trim()
+	Recortar string: substring(inicio), substring(inicio, fim)
+	Substituir String: Replace(char, char), Replace(string, string)
+	Buscar String: IndexOf, LastIndexOf
+	str.Split("")
+ 

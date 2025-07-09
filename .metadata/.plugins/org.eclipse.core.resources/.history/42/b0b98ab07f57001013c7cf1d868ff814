@@ -1,0 +1,46 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ConverterTemperature {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("=======Bem vindo ao conversor de temperatura C°/F°======");
+		System.out.println("Informe a temperatura atual:");
+		double tempAtual = sc.nextDouble();
+		converterTemp(tempAtual);
+
+		System.out.println("Deseja descobrir outras temperaturas convertidas? (s/n)");
+		char optionString = sc.next().charAt(0);
+		
+		while (optionString != 'n') {
+			System.out.println("======CONVERTENDO NOVAS TEMPERATURAS=====");
+			System.out.println("Certo, vamos converter outras temperaturas.");
+			System.out.println("Informe a temperatura que deseja converter:");
+			double newCoverter = sc.nextDouble();
+			converterTemp(newCoverter);
+			tempAtual = sc.nextDouble();
+			double tempFahr = (tempAtual * 1.8) + 32;
+			System.out.printf("Sua temperatura %.1f°C convertida em Fahrenheit é: %.2f°F \n", tempAtual, tempFahr);
+			System.out.println("deseja realizar nova conversão?");
+			optionString = sc.next().charAt(0);
+
+			
+
+		}
+		System.out.println("Tudo bem, você não deseja converter temperaturas.");
+		System.out.println("======Conversão finalizada=====");
+		sc.close();
+	}
+
+	public static double converterTemp(double temp) {
+
+		double tempCelsius = temp;
+		double tempFahr = (temp * 1.8) + 32;
+		System.out.printf("Sua temperatura atual %.1f°C convertida em Fahrenheit é: %.2f°F \n", tempCelsius, tempFahr);
+		return tempFahr;
+	}
+
+}
