@@ -14,9 +14,9 @@ public class CalculateGeometrics {
 		Rectangle x;
 		x = new Rectangle();
 
-		System.out.println("===================================================");
+		System.out.println("==================================================");
 		System.out.println("Bem vindo ao calculador de medidas de um Retangulo");
-		System.out.println("===================================================");
+		System.out.println("==================================================");
 		System.out.println("");
 		System.out.println("Informe a largura do retângulo:");
 		double width = sc.nextDouble();
