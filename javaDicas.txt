@@ -72,7 +72,7 @@
 
 #####################################################################################
 	
- *Exceptions
+ *EXCEPTIONS
  
 	Trhowable()
 	Exception()
@@ -87,4 +87,33 @@
 	Substituir String: Replace(char, char), Replace(string, string)
 	Buscar String: IndexOf, LastIndexOf
 	str.Split("")
+	
+#####################################################################################
+
+ *ESTRUTURA ORIENTAÇÃO OBJETO.
+
+	Dentro da IDE utilizada para desenvolvimento, organize o projeto por pastas.
+	
+	Pasta "APPLICATION" ==> Coloque a classe main, classe responsável por iniciar o projeto.
+		* Dados de entradas
+		* Mensagens
+		* Chamadas funções
+		
+	Pasta "ENTITIES" ==> Coloque a classe objeto, classe com as informações do código.
+		* Atributos
+		* Funções
+
+#####################################################################################
+
+ *MEMBROS ESTÁTICOS:
  
+ Declarados sempre com letra maiscula: ex: public static double MEMBRES_NUMBER = 5;
+ 
+ Uma função dentro da classe main, sempre tem que ter na sua declaração, o nome "static"
+ Ex: 
+ 
+	public static double calculaMembres(){
+	}
+ 
+ 
+#####################################################################################

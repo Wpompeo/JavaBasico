@@ -1,0 +1,35 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entities.Rectangle;
+
+public class CalculateGeometrics {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Rectangle x;
+		x= new Rectangle();
+		
+		System.out.println("==================================================");
+		System.out.println("Bem vindo ao calculador de medidas de um Retangulo");
+		System.out.println("==================================================");
+		System.out.println("");
+		System.out.println("Informe a largura do retângulo:");
+		double width = sc.nextDouble();
+		System.out.println("Informe a altura do retângulo:");
+		double heigth = sc.nextDouble();
+		double retArea = x.calculateAreaRet(width,heigth);
+		double retPerim = x.CalculatePerimeter(width, heigth);
+		double retDiag = x.CalculateDiagonal(width, heigth);
+		
+		System.out.printf("Area retangle: %.2f \n",retArea);
+		System.out.printf("Perimetro retangle: %.2f \n",retPerim);
+		System.out.printf("Area retangle: %.2f \n",retDiag);
+		sc.close();
+	}
+
+}

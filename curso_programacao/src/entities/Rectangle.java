@@ -1,0 +1,25 @@
+package entities;
+
+public class Rectangle {
+
+	public double width;
+	public double height;
+
+	public double calculateAreaRet(double x, double y) {
+
+		double area = x * y;
+		return area;
+	}
+
+	public double CalculatePerimeter(double x, double y) {
+		double perimeter = (2 * (x + y));
+		return perimeter;
+
+	}
+
+	public double CalculateDiagonal(double x, double y) {
+		double diagonal = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
+		return diagonal;
+	}
+
+}

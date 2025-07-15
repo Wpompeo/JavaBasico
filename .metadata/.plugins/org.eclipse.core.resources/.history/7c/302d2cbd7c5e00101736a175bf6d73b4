@@ -1,0 +1,34 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class CalculateGeometrics {
+	
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("==================================================");
+		System.out.println("Bem vindo ao calculador de medidas de um Retangulo");
+		System.out.println("==================================================");
+		System.out.println("");
+		System.out.println("Informe a largura do retângulo:");
+		double width = sc.nextDouble();
+		System.out.println("Informe a altura do retângulo:");
+		double heigth = sc.nextDouble();
+		calculateAreaRet(width,heigth);
+		
+		
+
+		
+		
+		sc.close();
+	}
+
+	private static void calculateAreaRet(double width, double heigth) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
