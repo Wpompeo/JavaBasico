@@ -1,0 +1,31 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.CurrencyConverter;
+
+public class buyDollars {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("====== Bem vindo ao sistema de compra de dólar ======");
+		System.out.println("");
+		System.out.println("Entre com o valor do dólar para compra: ");
+		double costDolar = sc.nextDouble();
+		System.out.println("Informa o valor em reais que deseja gastar com a compra: ");
+		double valueRealBuy = sc.nextDouble();
+
+		double valueFinalBuy = CurrencyConverter.cotationDolar(costDolar, valueRealBuy);
+
+		System.out.printf("O valor final da sua operação será R$ %.2f%n ", valueFinalBuy);
+		System.out.println("");
+
+		System.out.println("====== Cotação finalizada ======");
+
+		sc.close();
+	}
+
+}
