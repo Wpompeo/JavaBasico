@@ -10,27 +10,27 @@ public class InventoryControl {
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
-		Scanner sc = new Scanner(System.in);		
+		Scanner sc = new Scanner(System.in);
+
+		Product product = new Product();
 
 		System.out.println("================================");
 		System.out.println("Bem vindo ao controle e estoque.");
 		System.out.println("================================");
 		System.out.println("");
 		System.out.println("Informe com o nome do produto:");
-		String name = sc.nextLine();
+		product.name = sc.nextLine();
 		System.out.println("Informe com o valor do produto:");
-		double price = sc.nextDouble();
+		product.price = sc.nextDouble();
 		System.out.println("Informe com a quantidade de produto:");
-		int quantity = sc.nextInt();
-		Product product = new Product(name, price, quantity);
-		
+		product.quantity = sc.nextInt();
 		System.out.println("Dados do produto: " + product);
 
 		System.out.println("");
 		System.out.println("==================================================================");
 		System.out.println("Entre com a quantidade de produtos para ser adicionado ao estoque:");
 
-		quantity = sc.nextInt();
+		int quantity = sc.nextInt();
 		product.addProductsInStock(quantity);
 		System.out.println();
 		System.out.println("Estoque atualizado: " + product);
