@@ -1,0 +1,63 @@
+package entities;
+
+public class TransactionBank {
+
+	private String name;
+	private String conta;
+	private double saldo;
+	
+	public TransactionBank() {
+
+	}
+
+	public TransactionBank(String name, String conta, double saldo) {
+		super();
+		this.name = name;
+		this.conta = conta;
+		this.saldo = saldo;
+		
+
+	public String getConta() {
+		return conta;
+	}
+
+	public void setConta(String conta) {
+		this.conta = conta;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public double getDeposito() {
+		return saldo;
+	}
+
+	public void setDeposito(double saldo) {
+		this.saldo = saldo;
+	}
+
+	public void initDepos(double saldo) {
+		this.saldo += saldo;
+	}
+
+	public double saque(double saque) {
+
+		 saque = saque * 0.05 + saque - saldo;
+		 return saque;
+
+	}
+
+}

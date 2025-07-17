@@ -1,0 +1,34 @@
+package entities;
+
+public class Product {
+	public String name;
+	public double price;
+	public int quantity;
+
+	//constructor
+	public Product(String name, double price, int quantity) {
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+
+	}
+
+	public double totalValueInStock() {
+		Double valueEstoque = (price * quantity);
+		return valueEstoque;
+	}
+
+	public void addProductsInStock(int quantity) {
+		// ambiquidade entre atributo e metodo, usasse a palavra "this"
+		this.quantity += quantity;
+	}
+
+	public void removeQuantityStock(int quantity) {
+		this.quantity -= quantity;
+	}
+
+	public String toString() {
+		return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $"
+				+ String.format("%.2f", totalValueInStock());
+	}
+}

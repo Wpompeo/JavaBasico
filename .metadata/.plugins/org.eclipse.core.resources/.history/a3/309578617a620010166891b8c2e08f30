@@ -1,0 +1,32 @@
+package entities;
+
+public class TransactionBank {
+	
+	private String name;
+	private String conta;
+	private double saldo;
+	private double deposito;
+	
+	public String getConta() {
+		return conta;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getSaldo() {
+		return saldo;
+	}
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+	public double getDeposito() {
+		return deposito;
+	}
+	public void setDeposito(double deposito) {
+		this.deposito = deposito;
+	}
+	
+}

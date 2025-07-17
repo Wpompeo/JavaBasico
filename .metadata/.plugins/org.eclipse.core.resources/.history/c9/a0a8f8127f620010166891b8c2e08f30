@@ -1,0 +1,33 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.TransactionBank;
+
+public class Bank {
+	
+	public static void main(String [] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("========Bem vindo ao sistema de cadastro de contas========");
+		System.out.println("");
+		System.out.println("Informe o número da sua conta: ");
+		String conta = sc.nextLine();
+		System.out.println("Informe seu nome: ");
+		String name = sc.nextLine();
+		System.out.println("Gostaria de realizar deposito inicial (s/n)?");
+		boolean depositoInit = sc.nextBoolean();
+		
+		if (!depositoInit) {
+			System.out.println("Ok! vamos finalizar sua conta sem deposito.");
+		}
+		System.out.println("Informe o valor que deseja depositar: ");
+		double valueDeposito = sc.nextDouble();
+		
+		
+		sc.close();
+	}
+
+}
