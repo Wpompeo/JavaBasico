@@ -14,7 +14,7 @@ public class NumberReader {
 		System.out.println("");
 		System.out.println("========Bem vindo ao leitor de números========");
 		System.out.println("");
-		System.out.println("Quantos números você deseja digitar? ");
+		System.out.println("Quantos números você deseja digita? ");
 		int quantNum = sc.nextInt();
 
 		if (quantNum > MAX_READER_NUMBER) {
