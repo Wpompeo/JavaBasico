@@ -1,0 +1,49 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class NumberReader {
+
+	static int MAX_READER_NUMBER = 10;
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("========Bem vindo ao leitor de números========");
+		System.out.println("Quantos números você deseja digita? ");
+		int quantNum = sc.nextInt();
+
+		if (quantNum > MAX_READER_NUMBER) {
+			System.out.println("Quantidade de números a digitar, é acima do permitido.");
+		} else {
+			int[] vect = new int[quantNum];
+
+			for (int i = 0; i < vect.length; i++) {
+				sc.nextLine();
+				System.out.println("Informe o número da posição: " + i);
+				vect[i] = sc.nextInt();
+				
+				if (i < 0) {
+					System.out.println("Número negativo: " + i);
+
+				} else {
+					System.out.println("Número positivo: " + i);
+				}
+			}
+//			int num = 0;
+//
+//			for (int i = 0; i < vect.length; i++) {
+//				num += vect[i];
+//			}
+			
+
+		}
+
+		sc.close();
+
+	}
+
+}
