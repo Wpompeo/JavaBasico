@@ -1,0 +1,58 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ProgamPeople {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		System.out.println("===== Bem vindo ao programa de cálculo média de idades =====");
+		System.out.println();
+		System.out.println("Informe a quantidade de pessoas a digitar: ");
+		int nPessoas = sc.nextInt();
+
+		String[] namesStrings = new String[nPessoas];
+		int[] ages = new int[nPessoas];
+		double[] height = new double[nPessoas];
+
+		for (int i = 0; i < nPessoas; i++) {
+			System.out.println("Dados da " + (i + 1) + " pessoa:");
+			System.out.println("Nome: ");
+			namesStrings[i] = sc.next();
+			System.out.println("Idade: ");
+			ages[i] = sc.nextInt();
+			System.out.println("Altura: ");
+			height[i] = sc.nextDouble();
+
+		}
+
+		double sum = 0.0;
+		for (int i = 0; i < nPessoas; i++) {
+			sum = sum + height[i];
+		}
+		double medHeight = sum / nPessoas;
+
+		System.out.println();
+		System.out.printf("Altura média das pessoas é: %.2f%n", medHeight);
+
+		int cont = 0;
+		for (int i = 0; i < nPessoas; i++) {
+			if (ages[i] < 16) {
+				cont = cont + 1;
+			}
+		}
+		double percent = cont * 100.0 / nPessoas;
+
+		System.out.printf("Percentual de pessoas com menos de 16 anos: %.1f%%%n", percent);
+
+		for (int i = 0; i < nPessoas; i++) {
+			if (ages[i] < 16) {
+				System.out.println(namesStrings[i]);
+			}
+		}
+
+		sc.close();
+
+	}
+
+}
