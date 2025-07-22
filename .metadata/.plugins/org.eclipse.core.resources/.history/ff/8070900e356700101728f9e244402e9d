@@ -1,0 +1,26 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ContollerPensionato {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int quartosAlug[] = new int[10];
+		System.out.println("***********************************************");
+		System.out.println("Bem vindo a reserva de quartos do pensionato.");
+		System.out.println();
+		System.out.println("Informe quantos quartos você deseja alugar: ");
+		int numQuartos = sc.nextInt();
+
+		if (numQuartos > quartosAlug.length) {
+			System.out
+					.println("Atenção! o número de quartos informado, é maior que o permitido: " + quartosAlug.length);
+		} else {
+			System.out.printf(" Certo, você informou %d quartos.", numQuartos);
+		}
+
+		sc.close();
+
+	}
+}

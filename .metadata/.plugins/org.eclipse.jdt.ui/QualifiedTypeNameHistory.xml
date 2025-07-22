@@ -10,12 +10,13 @@
     <fullyQualifiedTypeName name="entities.Product"/>
     <fullyQualifiedTypeName name="entities.TransactionBank"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.io.InterruptedIOException"/>
+    <fullyQualifiedTypeName name="javax.lang.model.element.NestingKind"/>
+    <fullyQualifiedTypeName name="entities.ProductsVector"/>
+    <fullyQualifiedTypeName name="application.Products"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="javax.lang.model.element.NestingKind"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="entities.ProductsVector"/>
-    <fullyQualifiedTypeName name="application.Products"/>
+    <fullyQualifiedTypeName name="forBasic"/>
+    <fullyQualifiedTypeName name="java.io.InterruptedIOException"/>
 </qualifiedTypeNameHistroy>
