@@ -1,0 +1,57 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
+
+public class ProjectList {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>();
+
+		list.add("Wagner");
+		list.add("Santi");
+		list.add("Tatiana");
+		list.add("Julia");
+		list.add("Julinho");
+		// inserir elemento na lista
+		list.add(2, "Luis");
+		// remover elemento da lista por dado
+		list.remove("Julia");
+		// remover elemento por posicao
+		list.remove(0);
+		// remover por predicado
+
+		for (String x : list) {
+			System.out.println(x);
+			// tamanho da lista
+			System.out.println(list.size());
+		}
+		// remover da lista dados iniciados em J
+		System.out.println("--------------------");
+		list.removeIf(x -> x.charAt(0) == 'J');
+
+		for (String x : list) {
+			System.out.println(x);
+		}
+
+		System.out.println("---------Encontrar posição----------");
+		System.out.println("Index of Santi: " + list.indexOf("Santi"));
+		System.out.println();
+
+		// se pesquisa for de dado inexistente, retorna -1
+		System.out.println("---------Pesquisar dado inexistente");
+		System.out.println("Index of Pedro: " + list.indexOf("Pedro"));
+
+		// deixar na lista somente dados com a letra T
+		List<String> result = list.stream().filter(x -> x.charAt(0) == 'T').collect(Collectors.toList());
+
+		for (String x : result) {
+			System.out.println(result);
+		}
+
+	}
+
+}
