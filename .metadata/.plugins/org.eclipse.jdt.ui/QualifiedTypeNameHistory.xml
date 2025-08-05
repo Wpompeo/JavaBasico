@@ -19,5 +19,8 @@
     <fullyQualifiedTypeName name="forBasic"/>
     <fullyQualifiedTypeName name="java.io.InterruptedIOException"/>
     <fullyQualifiedTypeName name="application.forLacoEach"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
