@@ -1,0 +1,61 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ProjectMatrizFull {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe a quantidade de linhas e colunas da matriz: ");
+		int nLinhas = sc.nextInt();
+		int nColun = sc.nextInt();
+		int[][] mat = new int[nLinhas][nColun];
+
+		// for percorrer linhasxcolunas
+		for (int i = 0; i < nLinhas; i++) {
+			for (int j = 0; j < nColun; j++) {
+				mat[i][j] = sc.nextInt();
+			}
+		}
+		System.out.println();
+		System.out.println("Informe o número alvo: ");
+		int numAlvo = sc.nextInt();
+		
+		for (int i=0; i<mat.length; i++) {
+			for(int j=0; j<mat[i].length; j++) {
+				if(mat[i][j] == numAlvo) {
+					System.out.println("Número encontrado na posição [" + i + "][" + j + "]");
+					
+					if (j > 0)
+                        System.out.println("Esquerda: " + mat[i][j - 1]);
+
+                    // Verifica à direita
+                    if (j < mat[i].length - 1)
+                        System.out.println("Direita: " + mat[i][j + 1]);
+
+                    // Verifica acima
+                    if (i > 0)
+                        System.out.println("Acima: " + mat[i - 1][j]);
+
+                    // Verifica abaixo
+                    if (i < mat.length - 1)
+                        System.out.println("Abaixo: " + mat[i + 1][j]);
+				}
+			}
+		}
+	
+//		System.out.println("Main diagonal: ");
+//		for (int i = 0; i < nLinhas; i++) {
+//			System.out.println(mat[i][i] + " ");
+//		}
+
+		System.out.println("LinhasxColunas: " + nLinhas + " " + nColun);
+
+		sc.close();
+
+	}
+}

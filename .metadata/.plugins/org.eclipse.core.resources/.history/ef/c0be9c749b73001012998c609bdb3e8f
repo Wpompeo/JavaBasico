@@ -1,0 +1,22 @@
+package application;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class ProjectMatrizFull {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe a quantidade de linhas e colunas da matriz: ");
+		int nLinhas = sc.nextInt();
+		int nColun = sc.nextInt();
+		
+		System.out.println("LinhasxColunas: " + nLinhas + nColun);
+		
+		sc.close();
+
+	}
+}
