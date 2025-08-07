@@ -48,7 +48,7 @@ public class ProjectMatrizFull {
 				}
 			}
 		}		
-		System.out.println("Configuração da matriz: LinhasxColunas = " + nLinhas + " " + nColun);
+		System.out.println("LinhasxColunas: " + nLinhas + " " + nColun);
 
 		sc.close();
 

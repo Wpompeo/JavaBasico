@@ -21,10 +21,9 @@ public class ProjectMatrizFull {
 				mat[i][j] = sc.nextInt();
 			}
 		}
-		System.out.println();
 		System.out.println("Informe o número alvo: ");
 		int numAlvo = sc.nextInt();
-		
+		System.out.println();
 
 		for (int i = 0; i < mat.length; i++) {
 			for (int j = 0; j < mat[i].length; j++) {
@@ -48,7 +47,7 @@ public class ProjectMatrizFull {
 				}
 			}
 		}		
-		System.out.println("Configuração da matriz: LinhasxColunas = " + nLinhas + " " + nColun);
+		System.out.println("LinhasxColunas: " + nLinhas + " " + nColun);
 
 		sc.close();
 

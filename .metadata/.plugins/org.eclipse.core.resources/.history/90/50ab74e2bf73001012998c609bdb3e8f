@@ -21,10 +21,9 @@ public class ProjectMatrizFull {
 				mat[i][j] = sc.nextInt();
 			}
 		}
-		System.out.println();
 		System.out.println("Informe o número alvo: ");
 		int numAlvo = sc.nextInt();
-		
+		System.out.println();
 
 		for (int i = 0; i < mat.length; i++) {
 			for (int j = 0; j < mat[i].length; j++) {
@@ -32,23 +31,23 @@ public class ProjectMatrizFull {
 					System.out.println("Número encontrado na posição " + i + "," + j + ":");
 
 					if (j > 0)
-						System.out.println("Esquerda: " + mat[i][j - 1]);
+						System.out.println("Esquerda <=== : " + mat[i][j - 1]);
 
 					// Verifica à direita
 					if (j < mat[i].length - 1)
-						System.out.println("Direita: " + mat[i][j + 1]);
+						System.out.println("Direita: ===> " + mat[i][j + 1]);
 
 					// Verifica acima
 					if (i > 0)
-						System.out.println("Acima: " + mat[i - 1][j]);
+						System.out.println("Acima: ^ " + mat[i - 1][j]);
 
 					// Verifica abaixo
 					if (i < mat.length - 1)
-						System.out.println("Abaixo: " + mat[i + 1][j]);
+						System.out.println("Abaixo: v " + mat[i + 1][j]);
 				}
 			}
 		}		
-		System.out.println("Configuração da matriz: LinhasxColunas = " + nLinhas + " " + nColun);
+		System.out.println("LinhasxColunas: " + nLinhas + " " + nColun);
 
 		sc.close();
 
