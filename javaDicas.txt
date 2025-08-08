@@ -135,3 +135,22 @@
  Variáveis cujo tipo são classes não devem ser entendidas como caixas, mas sim "TENTÁCULOS" (ponteiros) para caixas.
  
  Ex: Product p1, p2;
+ 
+#####################################################################################
+
+*DATA HORA
+
+	*Data-hora Local
+		LocalDate ====> sem time zone dd/mm/aa
+		LocalDateTime ====>  com time zone, dd/mm/aa/hh
+	
+	*Data-hora global
+		Instant ====> data com fuso
+	
+	*Duração
+		Duration ====>  tempo duração
+	
+	*Outros
+		Zoneld ====> 
+		ChronoUnit ====> 
+#####################################################################################
