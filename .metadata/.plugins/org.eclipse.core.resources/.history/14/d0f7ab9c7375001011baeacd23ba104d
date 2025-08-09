@@ -26,10 +26,6 @@ public class HourDate {
 		
 		LocalDate d08 = LocalDate.parse("09/08/2025", fmt1);
 		LocalDateTime d09 = LocalDateTime.parse("09/08/2025 19:37", fmt2);
-		LocalDate d10 = LocalDate.of(2025, 8, 9);
-		LocalDateTime d11 = LocalDateTime.of(2025,8, 9, 19, 53 );  
-		
-		
 		
 		System.out.println("Data local date: " + d01);
 		System.out.println("Data local date time: " + d02);
@@ -40,8 +36,6 @@ public class HourDate {
 		System.out.println("Data date text time GMT + 3hs: " + d07);
 		System.out.println("Data date formatada ofPattern: " + d08);
 		System.out.println("Data dateTime formatada ofPattern: " + d09);
-		System.out.println("Data date formatada ofPattern: " + d10);
-		System.out.println("Data dateTime formatada of: " + d11);
 	}
 
 }
