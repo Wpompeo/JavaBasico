@@ -45,7 +45,7 @@ public class HourDate {
 		System.out.println("Data dateTime formatada ofPattern: " + d09);
 		System.out.println("Data date formatada ofPattern: " + d10);
 		System.out.println("Data dateTime formatada of: " + d11);
-		System.out.println("Data dataTime  String formatada com Zone: " + fmt3.format(d12));
+		System.out.println("Data dataTime  String formatada com Zone: " + d12);
 	}
 
 }

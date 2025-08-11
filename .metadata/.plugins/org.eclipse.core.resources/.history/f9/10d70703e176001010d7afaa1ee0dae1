@@ -1,0 +1,26 @@
+package application;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
+public class ConverterData {
+
+	public static void main(String[] args) {
+		
+		LocalDate d01 = LocalDate.parse("2025-08-11");
+		LocalDateTime d02 = LocalDateTime.parse("2025-08-11T15:21:26");
+		Instant d03 = Instant.parse("2025-08-11T01:30:26Z");
+		
+		//converter data
+		
+		//converte usando da do PC
+		LocalDate r1 = LocalDate.ofInstant(d03, ZoneId.systemDefault());
+		LocalDate r2 = LocalDate.ofInstant(d03, ZoneId.of("Portugal"));
+		
+		System.out.println("r1 = " + r1);
+		System.out.println("r2 = " + r2);
+
+	}
+}
