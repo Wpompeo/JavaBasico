@@ -1,0 +1,18 @@
+package application;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class DateHourEdit {
+	
+	public static void main(String []args) {
+		
+		LocalDate d01 = LocalDate.parse("2025-08-12");
+		LocalDateTime d02 = LocalDateTime.parse("2025-08-12T15:34:26");
+		Instant d03 = Instant.parse("2025-08-12T15:34:26Z");
+		
+		LocalDate pastWeekLocalDate = d01.minusDays(7);
+	}
+
+}
